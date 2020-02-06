@@ -19,6 +19,12 @@ create table movie(
 );
 ```
 
+Install packages
+```
+go get github.com/gin-gonic/gin
+go get github.com/lib/pq
+```
+
 Run application
 ```
 go run main.go
